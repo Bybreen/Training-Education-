@@ -1,0 +1,5 @@
+var msg = '<p><b>page title: </b>' + doc+ '</br>';
+msg += '<b>page address:</b>' + document.url + '</br>;
+msg += '<b>last modified: </b> + document.last modified + '</p>;
+var el = document,getElementById('footer');
+el.innerHTML = msg;
