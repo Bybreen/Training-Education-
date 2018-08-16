@@ -1,0 +1,12 @@
+var sx = document.getElementById('sx');
+var px = document.getElementById('px');
+var cx = document.getElementById('cx');
+
+function showPosition(event) {
+sx.value = event.screenX;
+px.value = event.pageX;
+cx.value = event.clientX;
+
+}
+var el = document.getElementById('body');
+el.addEventListener('mousemove', showPosition, false);
