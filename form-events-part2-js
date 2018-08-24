@@ -1,0 +1,8 @@
+function checkTerms(event) {
+if(!elTerms.checked) {
+elTermsHunt.innerHTML = 'You must agree to the terms,;
+event.preventDefault();
+}
+}
+elForm.addEventListener('submit', checkTerms, false);
+elSelectPackage.addEventListener('change, packageHint, false);
