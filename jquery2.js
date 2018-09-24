@@ -1,0 +1,1 @@
+$('li.hot').addClass('complete');
