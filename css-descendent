@@ -1,0 +1,22 @@
+#nav li {
+background: blue;
+}
+
+<ul id="nav">
+<li>child</li>
+</ul>
+
+Child
+
+#list li {
+border.1px solid black;
+}
+
+<ul id = "list">
+<li>child</hli>
+<li>child
+<ul>
+<li>grand child</li>
+</ul>
+</li>
+</ul>
