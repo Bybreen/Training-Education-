@@ -1,0 +1,7 @@
+h3 + p {
+color: green;
+)
+
+<h3>Heading</h3>
+<p>I'm a paragraph that's selected because I come directly after an h3.</p>
+<p>I'm not selected.</p>
