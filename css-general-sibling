@@ -1,0 +1,9 @@
+h2 ~ p {
+color: black;
+}
+
+<h2>Sub heading</h2>
+<p>I'm selected because I appear after an h2.</p>
+<p>I'm also selected for the same reason, in fact any 
+paragraph on the rest of the page after the h2 will be
+selected.</p>
